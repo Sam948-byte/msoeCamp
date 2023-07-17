@@ -19,9 +19,9 @@ public class labThree {
         //calculate tax
         double tax = 0;
         for(int i = 0; i < filerBrackets[status].length; i++) {
-            if(income > filerBrackets[status][i][0]) {
+            if(income > filerBrackets[status][i][0] && income < filerBrackets[status][i + 1][0]) {
                 tax += (0.01 * filerBrackets[status][i][1]) *
-                        (Math.max(0, Math.min(filerBrackets[status][i+1][0], income)) - filerBrackets[status][i][0]);
+                        (income - filerBrackets[status][i][0]);
             }
         }
 
