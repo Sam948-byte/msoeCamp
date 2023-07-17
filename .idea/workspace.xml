@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="lab three">
+    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="taxes r done">
+      <change afterPath="$PROJECT_DIR$/src/dayOne/labFour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dayOne/labThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dayOne/labThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dayOne/Summation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689612739548</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="taxes r done">
+      <option name="closed" value="true" />
+      <created>1689618520933</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689618520933</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +177,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="lab two" />
     <MESSAGE value="lab three" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab three" />
+    <MESSAGE value="taxes r done" />
+    <option name="LAST_COMMIT_MESSAGE" value="taxes r done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
