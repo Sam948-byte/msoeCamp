@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="lab two">
-      <change afterPath="$PROJECT_DIR$/src/dayOne/labThree.java" afterDir="false" />
+    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="lab three">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dayOne/labThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dayOne/labThree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/event/Desktop/msoeCamp",
-    "onboarding.tips.debug.path": "C:/Users/event/Desktop/msoeCampOne/src/Main.java",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/event/Desktop/msoeCamp&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/event/Desktop/msoeCampOne/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home.Main" />
@@ -138,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689609730060</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lab three">
+      <option name="closed" value="true" />
+      <created>1689612739548</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689612739548</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +166,8 @@
     <MESSAGE value="two truths and a lie" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="lab two" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab two" />
+    <MESSAGE value="lab three" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab three" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
