@@ -2,10 +2,10 @@ package home;
 
 import dayOne.twoTruthsAndALie;
 import dayOne.labTwo;
+import dayOne.labThree;
 
 public class Main {
     public static void main(String[] args) {
-
-        labTwo.main(args);
+        labThree.main(args);
     }
 }
