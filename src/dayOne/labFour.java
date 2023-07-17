@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class labFour {
 
-    private static int numPixels;
+    private static int numPixels = 0;
+    private static double estimate = 0;
+    private static int estimateWidth = 0;
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -18,7 +20,22 @@ public class labFour {
 
         topAndBottom(width);
 
-        System.out.println("\nNumber of pixels: " + numPixels);
+        System.out.println("4 * " + numPixels + " / " + width * width + " = " + 4 * numPixels / (double) (width * width));
+
+        System.out.print("Enter the minimum desired error for the estimate of PI: ");
+        double error = in.nextDouble();
+
+        estimateWidth = width;
+        while(Math.abs(estimate - Math.PI) > error){
+            estimateWidth++;
+            numPixels = 0;
+            estimate = 0;
+            middle(estimateWidth);
+        }
+
+
+
+        System.out.println("An estimate of " + estimate + " was achieved with a width of " + estimateWidth + ".");
     }
 
     public static void topAndBottom(int width) {
@@ -32,17 +49,26 @@ public class labFour {
     public static void middle(int width) {
         int height = width - 1;
         for (int j = 0; j < width; j++) {
-            System.out.print("| ");
+            if(estimateWidth == 0){
+                System.out.print("| ");
+            }
             for (int k = 0; k < width; k++) {
                 if (Math.sqrt((height * height) + (k * k)) <= width - 0.5) {
                     numPixels++;
-                    System.out.print("*");
-                } else {
+                    if(estimateWidth == 0){
+                        System.out.print("*");
+                    }
+                } else if(estimateWidth == 0){
                     System.out.print(" ");
                 }
             }
-            System.out.println(" |");
+            if(estimateWidth == 0){
+                System.out.println(" |");
+            }
             height--;
         }
+
+        estimate = 4 * numPixels / (double) (width * width);
     }
+
 }
