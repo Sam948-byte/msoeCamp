@@ -1,7 +1,6 @@
 package home;
 
-import subs.Summation;
-import subs.twoTruthsAndALie;
+import dayOne.twoTruthsAndALie;
 
 public class Main {
     public static void main(String[] args) {

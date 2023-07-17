@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="summation, but abstracted">
-      <change afterPath="$PROJECT_DIR$/src/subs/twoTruthsAndALie.java" afterDir="false" />
+    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="two truths and a lie">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msoeCampOne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msoeCamp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subs/Summation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dayOne/Summation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subs/twoTruthsAndALie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dayOne/twoTruthsAndALie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,19 +58,32 @@
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/event/Downloads/github-copilot-intellij-1.2.13.2776.zip",
     "onboarding.tips.debug.path": "C:/Users/event/Desktop/msoeCampOne/src/Main.java",
-    "settings.editor.selected.configurable": "template.copyright.formatting"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home.Main" />
-      <module name="msoeCampOne" />
+      <module name="msoeCamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="subs.*" />
+          <option name="PATTERN" value="dayOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="msoeCamp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="msoeCamp" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689605844514</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="two truths and a lie">
+      <option name="closed" value="true" />
+      <created>1689608553527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689608553527</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +156,8 @@
     <MESSAGE value="INITIAL COMMIT" />
     <MESSAGE value="got started" />
     <MESSAGE value="summation, but abstracted" />
-    <option name="LAST_COMMIT_MESSAGE" value="summation, but abstracted" />
+    <MESSAGE value="two truths and a lie" />
+    <option name="LAST_COMMIT_MESSAGE" value="two truths and a lie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

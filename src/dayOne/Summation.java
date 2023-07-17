@@ -1,4 +1,4 @@
-package subs;
+package dayOne;
 
 public class Summation {
     public static int main(String[] args) {
