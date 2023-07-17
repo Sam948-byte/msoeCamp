@@ -1,9 +1,10 @@
 package home;
 
 import subs.Summation;
+import subs.twoTruthsAndALie;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("The sum is: " + Summation.main(args));
+        twoTruthsAndALie.main(args);
     }
 }

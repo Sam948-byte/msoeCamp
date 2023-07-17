@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="summation, but abstracted">
+      <change afterPath="$PROJECT_DIR$/src/subs/twoTruthsAndALie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +37,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/home/Main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="2Shb7HEt1mKDswNMsnkhZcNkhEt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,14 +55,13 @@
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/event/Downloads/github-copilot-intellij-1.2.13.2776.zip",
     "onboarding.tips.debug.path": "C:/Users/event/Desktop/msoeCampOne/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "template.copyright.formatting"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home.Main" />
       <module name="msoeCampOne" />
-      <option name="PROGRAM_PARAMETERS" value="12 6 9 0 12" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="subs.*" />
