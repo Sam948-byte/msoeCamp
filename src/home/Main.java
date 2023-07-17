@@ -1,5 +1,6 @@
 package home;
-import home.Summation;
+
+import subs.Summation;
 
 public class Main {
     public static void main(String[] args) {

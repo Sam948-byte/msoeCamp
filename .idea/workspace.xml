@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="got started">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/Summation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="summation, but abstracted">
+      <change beforePath="$PROJECT_DIR$/src/home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
       <option name="PROGRAM_PARAMETERS" value="12 6 9 0 12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home.*" />
+          <option name="PATTERN" value="subs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689602672259</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="summation, but abstracted">
+      <option name="closed" value="true" />
+      <created>1689605844514</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689605844514</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,7 +127,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="INITIAL COMMIT" />
     <MESSAGE value="got started" />
-    <option name="LAST_COMMIT_MESSAGE" value="got started" />
+    <MESSAGE value="summation, but abstracted" />
+    <option name="LAST_COMMIT_MESSAGE" value="summation, but abstracted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

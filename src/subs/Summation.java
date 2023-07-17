@@ -1,4 +1,4 @@
-package home;
+package subs;
 
 public class Summation {
     public static int main(String[] args) {
