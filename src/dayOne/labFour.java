@@ -1,21 +1,14 @@
 package dayOne;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.stage.Stage;
-
 import java.util.Scanner;
 
-
-public class labFour extends Application {
+public class labFour {
 
     private static int numPixels = 0;
     private static double estimate = 0;
     private static int estimateWidth = 0;
 
     public static void main(String[] args) {
-        Application.launch(args);
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter the desired width: ");
@@ -33,13 +26,16 @@ public class labFour extends Application {
         double error = in.nextDouble();
 
         estimateWidth = width;
-        while (Math.abs(estimate - Math.PI) > error) {
-            estimateWidth += 3;
+        while(Math.abs(estimate - Math.PI) > error){
+            estimateWidth++;
             numPixels = 0;
             estimate = 0;
-            estimateCalc(estimateWidth);
-            System.out.print("An estimate of " + estimate + " was calculated with a width of " + estimateWidth + "\r");
+            middle(estimateWidth);
         }
+
+
+
+        System.out.println("An estimate of " + estimate + " was achieved with a width of " + estimateWidth + ".");
     }
 
     public static void topAndBottom(int width) {
@@ -53,50 +49,26 @@ public class labFour extends Application {
     public static void middle(int width) {
         int height = width - 1;
         for (int j = 0; j < width; j++) {
-
-            System.out.print("| ");
-
+            if(estimateWidth == 0){
+                System.out.print("| ");
+            }
             for (int k = 0; k < width; k++) {
                 if (Math.sqrt((height * height) + (k * k)) <= width - 0.5) {
                     numPixels++;
-
-                    System.out.print("*");
-
-                } else {
+                    if(estimateWidth == 0){
+                        System.out.print("*");
+                    }
+                } else if(estimateWidth == 0){
                     System.out.print(" ");
                 }
             }
-
-            System.out.println(" |");
-
-            height--;
-        }
-
-        estimate = 4 * numPixels / (double) (width * width);
-    }
-
-    public static void estimateCalc(int width) {
-        int height = width - 1;
-        for (int j = 0; j < width; j++) {
-
-            for (int k = 0; k < width; k++) {
-                if (Math.sqrt((height * height) + (k * k)) <= width - 0.5) {
-                    numPixels++;
-
-                }
+            if(estimateWidth == 0){
+                System.out.println(" |");
             }
-
             height--;
         }
 
         estimate = 4 * numPixels / (double) (width * width);
     }
 
-    @Override
-    public void start(Stage stage) throws Exception {
-        Label display = new Label("Hello, World!");
-        Scene scene = new Scene(display);
-        stage.setScene(scene);
-        stage.show();
-    }
 }
