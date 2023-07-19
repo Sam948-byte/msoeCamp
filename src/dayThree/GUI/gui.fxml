@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dayThree.GUI.labFourController">
+   <children>
+      <Slider fx:id="slider" blockIncrement="1.0" layoutX="14.0" layoutY="40.0" majorTickUnit="5.0" max="20.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" />
+      <Button fx:id="startButton" layoutX="50.0" layoutY="92.0" mnemonicParsing="false" onAction="#firstDisplay" text="Enter" />
+      <Label fx:id="instructions" layoutX="27.0" layoutY="14.0" text="Enter the desired width" />
+      <Label fx:id="display" layoutX="13.0" layoutY="123.0" prefHeight="245.0" prefWidth="215.0">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="results" layoutX="13.0" layoutY="368.0" prefHeight="17.0" prefWidth="179.0" />
+      <Label layoutX="414.0" layoutY="22.0" text="Enter the desired precision" />
+      <TextField fx:id="txtField" layoutX="414.0" layoutY="43.0" />
+      <Button fx:id="precisionButton" layoutX="458.0" layoutY="77.0" mnemonicParsing="false" onAction="#estimateCalc" text="Enter" />
+      <Label fx:id="precisionResult" layoutX="422.0" layoutY="131.0" prefHeight="18.0" prefWidth="136.0" text="Label" />
+   </children>
+</AnchorPane>
