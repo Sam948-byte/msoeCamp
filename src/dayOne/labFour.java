@@ -49,26 +49,40 @@ public class labFour {
     public static void middle(int width) {
         int height = width - 1;
         for (int j = 0; j < width; j++) {
-            if(estimateWidth == 0){
+
                 System.out.print("| ");
-            }
+
             for (int k = 0; k < width; k++) {
                 if (Math.sqrt((height * height) + (k * k)) <= width - 0.5) {
                     numPixels++;
-                    if(estimateWidth == 0){
+
                         System.out.print("*");
-                    }
-                } else if(estimateWidth == 0){
+
+                } else{
                     System.out.print(" ");
                 }
             }
-            if(estimateWidth == 0){
+
                 System.out.println(" |");
-            }
+
             height--;
         }
 
         estimate = 4 * numPixels / (double) (width * width);
     }
 
+    public static void estimateCalc(int width) {
+        int height = width - 1;
+        for (int j = 0; j < width; j++) {
+
+            for (int k = 0; k < width; k++) {
+                if (Math.sqrt((height * height) + (k * k)) <= width - 0.5) {
+                    numPixels++;
+                }
+            }
+            height--;
+        }
+
+        estimate = 4 * numPixels / (double) (width * width);
+    }
 }
