@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="GUI time!">
+    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="GUI finished?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dayThree/GUI/gui.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/dayThree/GUI/gui.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dayThree/GUI/labFourController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dayThree/GUI/labFourController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689797445705</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="GUI finished?">
+      <option name="closed" value="true" />
+      <created>1689798870455</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689798870455</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +229,8 @@
     <MESSAGE value="pi calculated" />
     <MESSAGE value="optimize" />
     <MESSAGE value="GUI time!" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI time!" />
+    <MESSAGE value="GUI finished?" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI finished?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,6 +13,7 @@ public class labFourController {
     private static int numPixels = 0;
     private static double estimate = 0;
     private static int estimateWidth = 0;
+    private static double lastError = 0;
     @FXML
     private Label display;
     @FXML
@@ -47,16 +48,23 @@ public class labFourController {
 
     @FXML
     public void secondDisplay() {
+        double error = Double.parseDouble(txtField.getText());
         precisionResult.setText("");
+            if (error > lastError){
+                estimateWidth = 0;
+            }
+
         estimate = 0;
-        estimateWidth = (int) slider.getValue();
-        while (Math.abs(estimate - Math.PI) > Double.parseDouble(txtField.getText())) {
+        estimateWidth = 0;
+
+        while (Math.abs(estimate - Math.PI) > error) {
             estimateWidth++;
             numPixels = 0;
             estimate = estimateCalc(estimateWidth);
             progress.setText("Estimate: " + estimate);
         }
 
+        lastError = error;
         addToLabel(precisionResult, "An estimate of " + estimate + " was achieved with a width of " + estimateWidth + ".");
     }
 
