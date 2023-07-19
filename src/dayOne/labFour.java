@@ -13,13 +13,15 @@ public class labFour {
 
         System.out.print("Enter the desired width: ");
         int width = in.nextInt();
-
+if(width < 10000){
         topAndBottom(width);
 
         middle(width);
 
         topAndBottom(width);
-
+}else{
+        estimateCalc(width);
+}
         System.out.println("4 * " + numPixels + " / " + width * width + " = " + 4 * numPixels / (double) (width * width));
 
         System.out.print("Enter the minimum desired error for the estimate of PI: ");
