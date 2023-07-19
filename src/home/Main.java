@@ -9,6 +9,6 @@ import dayThree.birthdayProblem;
 
 public class Main {
     public static void main(String[] args) {
-        birthdayProblem.main(args);
+        labFour.main(args);
     }
 }

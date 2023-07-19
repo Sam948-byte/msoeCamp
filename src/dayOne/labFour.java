@@ -27,10 +27,11 @@ public class labFour {
 
         estimateWidth = width;
         while(Math.abs(estimate - Math.PI) > error){
-            estimateWidth++;
+            estimateWidth += 3;
             numPixels = 0;
             estimate = 0;
-            middle(estimateWidth);
+            estimateCalc(estimateWidth);
+            System.out.print("An estimate of " + estimate + " was computed with a width of " + estimateWidth + ".\r");
         }
 
 
