@@ -2,10 +2,8 @@ package dayThree.GUI;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.Slider;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
+
 import java.lang.Math;
 
 import java.util.Scanner;
@@ -25,6 +23,8 @@ public class labFourController {
     private TextField txtField;
     @FXML
     private Label precisionResult;
+    @FXML
+    private Label progress;
 
     @FXML
     public void firstDisplay() {
@@ -46,8 +46,18 @@ public class labFourController {
     }
 
     @FXML
-    public void secondDisplay(){
-        estimateCalc((int)slider.getValue());
+    public void secondDisplay() {
+        precisionResult.setText("");
+        estimate = 0;
+        estimateWidth = (int) slider.getValue();
+        while (Math.abs(estimate - Math.PI) > Double.parseDouble(txtField.getText())) {
+            estimateWidth++;
+            numPixels = 0;
+            estimate = estimateCalc(estimateWidth);
+            progress.setText("Estimate: " + estimate);
+        }
+
+        addToLabel(precisionResult, "An estimate of " + estimate + " was achieved with a width of " + estimateWidth + ".");
     }
 
 
@@ -77,7 +87,7 @@ public class labFourController {
         return 4 * numPixels / (double) (width * width);
     }
 
-    public static void estimateCalc(int width) {
+    public static double estimateCalc(int width) {
         int height = width - 1;
         for (int j = 0; j < width; j++) {
 
@@ -89,7 +99,7 @@ public class labFourController {
             height--;
         }
 
-        estimate = 4 * numPixels / (double) (width * width);
+        return 4 * numPixels / (double) (width * width);
     }
 
 
