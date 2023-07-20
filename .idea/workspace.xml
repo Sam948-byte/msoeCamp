@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="sure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msoeCamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msoeCamp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dayOne/labFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dayOne/labFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dayThree/GUI/labFourController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dayThree/GUI/labFourController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +54,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/event/Desktop/msoeCamp",
+    "last_opened_file_path": "C:/Program Files/Java/javafx-sdk-19/lib",
     "onboarding.tips.debug.path": "C:/Users/event/Desktop/msoeCampOne/src/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,7 +67,15 @@
       <recent name="dayThree.GUI" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="JavaFX" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="dayThree.GUI.labFourDriver" />
+      <module name="msoeCamp" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-19\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home.Main" />
       <module name="msoeCamp" />
@@ -81,6 +90,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.JavaFX" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

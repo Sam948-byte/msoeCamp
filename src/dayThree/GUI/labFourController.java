@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class labFourController {
 
-    private static int numPixels = 0;
+    private static long numPixels = 0;
     private static double estimate = 0;
     private static int estimateWidth = 0;
     private static double lastError = 0;
