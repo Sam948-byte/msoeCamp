@@ -1,12 +1,9 @@
 package dayThree.GUI;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 
 import java.lang.Math;
-
-import java.util.Scanner;
 
 public class labFourController {
 
@@ -77,7 +74,7 @@ public class labFourController {
         addToLabel(display, "+\n");
     }
 
-    public double middle(int width) {
+    public void middle(int width) {
         int height = width - 1;
         for (int j = 0; j < width; j++) {
             addToLabel(display, "| ");
@@ -92,7 +89,6 @@ public class labFourController {
             addToLabel(display, " |\n");
             height--;
         }
-        return 4 * numPixels / (double) (width * width);
     }
 
     public static double estimateCalc(int width) {

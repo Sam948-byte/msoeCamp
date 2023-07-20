@@ -31,6 +31,7 @@ public class caesarCipher {
 
     }
 
+    @SuppressWarnings("StringConcatenationInLoop")
     public static void encrypt(String input, int shift) {
         shift = shift % 26;
         input = input.toUpperCase();
@@ -42,6 +43,7 @@ public class caesarCipher {
         }
     }
 
+    @SuppressWarnings("StringConcatenationInLoop")
     public static void decrypt(String input, int shift) {
         input = input.toUpperCase();
         if (shift == 0) {
@@ -57,6 +59,7 @@ public class caesarCipher {
         }
     }
 
+    @SuppressWarnings("StringConcatenationInLoop")
     public static void decryptAll(String input){
         for (int j = 0; j < 26; j++) {
             for (int i = 0; i < input.length(); i++) {

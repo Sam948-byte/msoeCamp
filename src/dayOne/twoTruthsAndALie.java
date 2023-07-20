@@ -23,15 +23,15 @@ public class twoTruthsAndALie {
 
         System.out.println("Welcome to Two Truths and a Lie!\n");
 
-        for(int j = 0; j < order.length; j++) {
-            System.out.println(truthsAndLie[order[j]][0]);
+        for (int i : order) {
+            System.out.println(truthsAndLie[i][0]);
         }
 
         System.out.println("\nGuess which statement is the lie:");
         int guess = in.nextInt();
 
 
-        if (truthsAndLie[order[guess - 1]][1] == "lie") {
+        if (truthsAndLie[order[guess - 1]][1].equals("lie")) {
             System.out.println("Correct! That one's the lie.");
         } else {
             System.out.println("Incorrect! That one's not the lie.");

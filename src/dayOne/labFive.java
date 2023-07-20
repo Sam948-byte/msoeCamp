@@ -1,13 +1,10 @@
 package dayOne;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class labFive {
     private static double givenAmount = 0;
     private static int weeks = 0;
-    private static double linearTotal = 0;
-    private static double exponentialTotal = 0;
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         randomize();
@@ -39,8 +36,6 @@ public class labFive {
     public static void randomize(){
         givenAmount = Math.round(Math.random() * 5000);
         weeks = (int)(Math.random() * 39 + 1);
-        linearTotal = 0;
-        exponentialTotal = 0.00;
     }
 
     public static double linear(int weeks){
