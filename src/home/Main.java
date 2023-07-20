@@ -6,9 +6,11 @@ import dayOne.labThree;
 import dayOne.labFour;
 import dayOne.labFive;
 import dayThree.birthdayProblem;
+import dayFour.caesarCipher;
 
 public class Main {
     public static void main(String[] args) {
-        labFour.main(args);
+
+        caesarCipher.main(args);
     }
 }

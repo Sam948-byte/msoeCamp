@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="sure">
+    <list default="true" id="84a2b2be-3ce1-4970-a257-c4644fb1e409" name="Changes" comment="updated some stuff">
+      <change afterPath="$PROJECT_DIR$/src/dayFour/caesarCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msoeCamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/msoeCamp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dayOne/labFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dayOne/labFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dayThree/GUI/labFourController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dayThree/GUI/labFourController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Program Files/Java/javafx-sdk-19/lib",
-    "onboarding.tips.debug.path": "C:/Users/event/Desktop/msoeCampOne/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java/javafx-sdk-19/lib&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/event/Desktop/msoeCampOne/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dayThree.GUI" />
@@ -224,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689799930541</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updated some stuff">
+      <option name="closed" value="true" />
+      <created>1689872012480</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689872012480</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +259,8 @@
     <MESSAGE value="GUI time!" />
     <MESSAGE value="GUI finished?" />
     <MESSAGE value="sure" />
-    <option name="LAST_COMMIT_MESSAGE" value="sure" />
+    <MESSAGE value="updated some stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated some stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
