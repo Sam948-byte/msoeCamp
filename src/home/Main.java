@@ -7,10 +7,11 @@ import dayOne.labFour;
 import dayOne.labFive;
 import dayThree.birthdayProblem;
 import dayFour.caesarCipher;
+import dayFour.shellSort;
 
 public class Main {
     public static void main(String[] args) {
 
-        caesarCipher.main(args);
+        shellSort.main(args);
     }
 }
